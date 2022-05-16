@@ -7,12 +7,12 @@
         "description": "Samsung Galaxy S22 Plus Casemate accessory bundle",
         "slug": "Samsung Galaxy S22 Plus Casemate accessory bundle",
         "color": "Black",
-        "payment-options": {
-            "36-monthly-payment": "$1.25",
-            "24-monthly-payment": "$1.88",
-            "upfront-payment": "$45"
+        "payment": {
+            "thirtysix_month": "$1.25",
+            "twentyfour_month": "$1.88",
+            "upfront": "$45"
         },
-        "image": "/images/sample/news1.jpg"
+        "image": "/images/accessories/SamsungGalaxyS22PlusBundle_CasemateCaseGlassScreenProtector_back_Black.png"
       },
       {
         "id": "2",
@@ -21,12 +21,12 @@
         "description": "Samsung Galaxy S22 Ultra Speck Presidio Grip 2 case",
         "slug": "Samsung Galaxy S22 Ultra Speck Presidio Grip 2 case",
         "color": "Coastal Blue",
-        "payment-options": {
-            "36-monthly-payment": "",
-            "24-monthly-payment": "",
-            "upfront-payment": "$48.99"
+        "payment": {
+            "thirtysix_month": "",
+            "twentyfour_month": "",
+            "upfront": "$48.99"
         },
-        "image": "x"
+        "image": "/images/accessories/SamsungGalaxyS22Ultra_SpeckPresidioGrip2Case_back_black.png"
       },
       {
         "id": "3",
@@ -35,12 +35,12 @@
         "description": "Samsung Galaxy S22 Plus Gadget Guard Flex screen protector",
         "slug": "Samsung Galaxy S22 Plus Gadget Guard Flex screen protector",
         "color": "Black Ice",
-        "payment-options": {
-            "36-monthly-payment": "",
-            "24-monthly-payment": "",
-            "upfront-payment": "$53.99"
+        "payment": {
+            "thirtysix_month": "",
+            "twentyfour_month": "",
+            "upfront": "$53.99"
         },
-        "image": "x"
+        "image": "/images/accessories/SamsungGalaxyS22Plus_GadgetGuardFlex_front_BlackIce.png"
       },
       {
         "id": "4",
@@ -49,12 +49,12 @@
         "description": "Apple iPhone 13 mini Casemate protection pack",
         "slug": "Apple iPhone 13 mini Casemate protection pack",
         "color": "Clear",
-        "payment-options": {
-            "36-monthly-payment": "",
-            "24-monthly-payment": "",
-            "upfront-payment": "$45"
+        "payment": {
+            "thirtysix_month": "",
+            "twentyfour_month": "",
+            "upfront": "$45"
         },
-        "image": "x"
+        "image": "/images/accessories/iPhone13miniCasemateProtectionPack_front_clear.png"
       }
     ]
   }
