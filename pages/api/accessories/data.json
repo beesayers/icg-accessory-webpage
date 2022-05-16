@@ -1,0 +1,60 @@
+{
+    "accessories": [
+      {
+        "id": "1",
+        "type": "case",
+        "manufacturer": "case-mate",
+        "description": "Samsung Galaxy S22 Plus Casemate accessory bundle",
+        "slug": "Samsung Galaxy S22 Plus Casemate accessory bundle",
+        "color": "Black",
+        "payment-options": {
+            "36-monthly-payment": "$1.25",
+            "24-monthly-payment": "$1.88",
+            "upfront-payment": "$45"
+        },
+        "image": "/images/sample/news1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "case",
+        "manufacturer": "speck",
+        "description": "Samsung Galaxy S22 Ultra Speck Presidio Grip 2 case",
+        "slug": "Samsung Galaxy S22 Ultra Speck Presidio Grip 2 case",
+        "color": "Coastal Blue",
+        "payment-options": {
+            "36-monthly-payment": "",
+            "24-monthly-payment": "",
+            "upfront-payment": "$48.99"
+        },
+        "image": "x"
+      },
+      {
+        "id": "3",
+        "type": "screen-protector",
+        "manufacturer": "gadgetguard",
+        "description": "Samsung Galaxy S22 Plus Gadget Guard Flex screen protector",
+        "slug": "Samsung Galaxy S22 Plus Gadget Guard Flex screen protector",
+        "color": "Black Ice",
+        "payment-options": {
+            "36-monthly-payment": "",
+            "24-monthly-payment": "",
+            "upfront-payment": "$53.99"
+        },
+        "image": "x"
+      },
+      {
+        "id": "4",
+        "type": "screen-protector",
+        "manufacturer": "case-mate",
+        "description": "Apple iPhone 13 mini Casemate protection pack",
+        "slug": "Apple iPhone 13 mini Casemate protection pack",
+        "color": "Clear",
+        "payment-options": {
+            "36-monthly-payment": "",
+            "24-monthly-payment": "",
+            "upfront-payment": "$45"
+        },
+        "image": "x"
+      }
+    ]
+  }
