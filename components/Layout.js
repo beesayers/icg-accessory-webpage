@@ -15,7 +15,9 @@ const Layout = ({ title, keywords, description, children }) => {
           <meta name="keywords" content={keywords}/>
         </Head>
         <Header />
-        <Hero />
+        
+        {/* conditional to only display hero on homepage */}
+        {router.pathname === "/" && <Hero />}
         <div className="{styles.container}">{children}</div>
         <Footer />
     </div>
