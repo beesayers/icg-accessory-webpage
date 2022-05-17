@@ -12,6 +12,11 @@
     margin: 10px;
   }
   
+  .blue {
+    text-transform: uppercase;
+    color: #00a9e0;
+}
+
   .info {
     flex: 2;
   }

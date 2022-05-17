@@ -1,0 +1,36 @@
+.accessories {
+    position: relative;
+    padding-top: 40px;
+}
+
+.accessories h3 {
+    font-size: 25px;
+}
+
+.accessories p {
+    margin: 10px 0;
+}
+
+.blue {
+    color: #00a9e0;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.controls {
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+
+.delete {
+    margin-left: 20px;
+    color: red;
+}

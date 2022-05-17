@@ -9,14 +9,14 @@ export default function AccessoryItem({accessories}) {
         <div className={styles.img}>
             <Image 
                 src={accessories.image ? accessories.image: "No Image"} 
-                width={140} 
-                height={175}
+                width={350} 
+                height={470}
             />
           </div>
           <div className={styles.info}>
-            <h2>{accessories.manufacturer}</h2>
+            <h2 className={styles.blue}>{accessories.manufacturer}</h2>
             <h3>{accessories.description}</h3>
-            <span class="blue">
+            <span className={styles.blue}>
               {accessories.payment.thirtysix_month ? accessories.payment.thirtysix_month : accessories.payment.twentyfour_month ? accessories.payment.twentyfour_month : accessories.payment.upfront ? accessories.payment.upfront : "FREE"}
             </span>
             <span>

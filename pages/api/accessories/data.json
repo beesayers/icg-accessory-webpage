@@ -10,7 +10,7 @@
         "payment": {
             "thirtysix_month": "$1.25",
             "twentyfour_month": "$1.88",
-            "upfront": "$45"
+            "upfront": "$45.00"
         },
         "image": "/images/accessories/SamsungGalaxyS22PlusBundle_CasemateCaseGlassScreenProtector_back_Black.png"
       },
@@ -52,7 +52,7 @@
         "payment": {
             "thirtysix_month": "",
             "twentyfour_month": "",
-            "upfront": "$45"
+            "upfront": "$45.00"
         },
         "image": "/images/accessories/iPhone13miniCasemateProtectionPack_front_clear.png"
       }
