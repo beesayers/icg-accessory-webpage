@@ -3,7 +3,6 @@ import styles from "@/styles/Layout.module.css"
 import Header from "./Header"
 import Footer from "./Footer"
 import {useRouter} from "next/router"
-import Hero from "./Hero"
 
 const Layout = ({ title, keywords, description, children }) => {
   const router = useRouter();
@@ -17,8 +16,8 @@ const Layout = ({ title, keywords, description, children }) => {
         <Header />
         
         {/* conditional to only display hero on homepage */}
-        {router.pathname === "/" && <Hero />}
-        <div className="{styles.container}">{children}</div>
+        
+        <div>{children}</div>
         <Footer />
     </div>
   );

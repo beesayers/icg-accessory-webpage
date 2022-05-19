@@ -12,7 +12,7 @@ export default function SingleAccessory({accessory}) {
     return (
         <Layout>
             <Link href ="/">
-                <a className={`${styles.back} ${styles.blue}`}>See all accessories</a>
+                <a className={`${styles.blue}`}>See all accessories</a>
             </Link>
 
             {accessory.image && (

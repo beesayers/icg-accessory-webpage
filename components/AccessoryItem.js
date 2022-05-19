@@ -1,11 +1,36 @@
 import Link from "next/link"
 import Image from "next/image"
-import styles from "@/styles/AccessoryItem.module.css"
 
-export default function AccessoryItem({accessories}) {
+export default function AccessoryItem({accessory}) {
   return (
-    <Link href={`/accessories/${accessories.slug}`}>
-      <div className={styles.accessories}>
+    <Link href={`/accessories/${accessory.slug}`}>
+      <div key={accessory.id} className="group relative">
+        <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+          <img
+            src={accessory.image}
+            className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+          />
+        </div>
+        <div className="mt-4 flex justify-between">
+          <div>
+            <h3 className="text-sm text-gray-700">
+              {/* <a href={accessory.href}>
+                <span aria-hidden="true" className="absolute inset-0" />
+                {accessory.name}
+              </a> */}
+            </h3>
+            <p className="mt-1 text-sm text-gray-500">{accessory.color}</p>
+          </div>
+          <p className="text-sm font-medium text-gray-900">{accessory.payment.thirtysix_month}</p>
+        </div>
+      </div>
+
+
+
+
+
+
+      {/* <div className={styles.accessories}>
         <div className={styles.img}>
             <Image 
                 src={accessories.image ? accessories.image: "No Image"} 
@@ -24,7 +49,7 @@ export default function AccessoryItem({accessories}) {
               "FREE"}
             </span>
           </div>
-      </div>
+      </div> */}
     </Link>
   )
 }

@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from "next/link"
 import Layout from "@/components/Layout"
 import {API_URL} from "@/config/index"
 import AccessoryItem from "@/components/AccessoryItem"
@@ -10,10 +7,16 @@ export default function HomePage({accessories}) {
     <div>
       <Layout title={"Accessories"}>
         <h1>Accessories</h1>
-        {accessories.length === 0 && <h3>Sorry, We Are Out of Stock!</h3>}
-        {accessories.map((item) => (
+        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+              {accessories.map((accessory) => (
+                <AccessoryItem key={accessory.id} accessory={accessory} />
+              ))}
+        </div>
+
+
+        {/* {accessories.map((item) => (
           <AccessoryItem key={item.id} accessories={item} />
-        ))}
+        ))} */}
       </Layout>
     </div>
   )
