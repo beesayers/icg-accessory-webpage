@@ -1,22 +1,25 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-    color: #333;
-    height: 60px;
-    padding: 0 30px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 121px;
+    width: 100%;
+    padding: 20px 18px 15px 18px;
+    position: relative;
+    margin: 0 auto;
   }
-  
+
   .header a {
-    color: #333;
+    color: #272e44;
     margin-right: 20px;
+    transition: all 0.2s;
+    font-family: Gotham;
+    font-weight: normal;
+    font-size: .85rem;
   }
   
   .header a:hover {
-    color: #000;
+    color: rgba(49, 46, 59, 0.65);
   }
+
   .header ul {
     display: flex;
     align-items: center;
@@ -26,7 +29,6 @@
   
   .logo {
     float: left;
-    margin: 8px 0;
     width: 58px;
     height: auto; 
   }

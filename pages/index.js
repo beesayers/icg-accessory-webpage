@@ -8,8 +8,8 @@ import AccessoryItem from "@/components/AccessoryItem"
 export default function HomePage({accessories}) {
   return (
     <div>
-      <Layout>
-        <h1>Latest Accessories</h1>
+      <Layout title={"Accessories"}>
+        <h1>Accessories</h1>
         {accessories.length === 0 && <h3>Sorry, We Are Out of Stock!</h3>}
         {accessories.map((item) => (
           <AccessoryItem key={item.id} accessories={item} />

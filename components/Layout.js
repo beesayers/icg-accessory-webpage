@@ -25,7 +25,7 @@ const Layout = ({ title, keywords, description, children }) => {
 }
 
 Layout.defaultProps = {
-    title: "ICG.com: Accessories",
+    title: "Accessories",
     description: "Find the latest accessories",
     keywords: "wearables, cases, headphones, speakers, storage, stylus, bundle, power, screen protector, charge cable"
 };
