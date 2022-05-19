@@ -1,15 +1,11 @@
-import Link from "next/link"
-import styles from "@/styles/Header.module.css"
-import Image from "next/image"
-
 export default function Header() {
   return (
     <div className="relative bg-white">
-        <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
-            <div>
+        <div className="flex justify-between items-baseline px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
+            <div className="items-baseline pl-2 sm:h-10 md:justify-start">
                 <a href="/" className="flex">
                     <img
-                    className="h-8 w-auto sm:h-10"
+                    className="w-auto sm:h-10"
                     src="/images/global/header/logo.png"
                     alt=""
                     />
