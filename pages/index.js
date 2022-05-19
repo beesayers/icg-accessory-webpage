@@ -12,11 +12,6 @@ export default function HomePage({accessories}) {
                 <AccessoryItem key={accessory.id} accessory={accessory} />
               ))}
         </div>
-
-
-        {/* {accessories.map((item) => (
-          <AccessoryItem key={item.id} accessories={item} />
-        ))} */}
       </Layout>
     </div>
   )

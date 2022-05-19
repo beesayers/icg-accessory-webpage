@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "@/styles/Layout.module.css"
 import Header from "./Header"
 import Footer from "./Footer"
 import Banner from "./Banner"
@@ -15,10 +14,7 @@ const Layout = ({ title, keywords, description, children }) => {
           <meta name="keywords" content={keywords}/>
         </Head>
         <Header />
-        <Banner />
-        
-        {/* conditional to only display hero on homepage */}
-        
+        <Banner />      
         <div>{children}</div>
         <Footer />
     </div>
