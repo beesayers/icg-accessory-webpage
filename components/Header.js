@@ -4,59 +4,45 @@ import Image from "next/image"
 
 export default function Header() {
   return (
-    <header className={styles.header}>
-        <div>
+    <div className="relative bg-white">
+        <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
             <div>
-                <ul>
-                    <li>
-                        <Link href="/">
-                            <div >
-                                <Image 
-                                    src={"/images/global/header/logo.png"} width={80} height={60} border-style={"none"} vertical-align={"middle"}
-                                />
-                            </div>
-                        </Link>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="/"> Personal </a>
-                            </li>
-                            <li>
-                                <a href="/"> Business </a>
-                            </li>
-                            <li>
-                                <a href="/"> Small Business </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                <a href="/" className="flex">
+                    <img
+                    className="h-8 w-auto sm:h-10"
+                    src="/images/global/header/logo.png"
+                    alt=""
+                    />
+                </a>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link href="/">
-                            <a>Your Location</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/">
-                            <a>Support</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/">
-                            <a>My Cart</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/">
-                            <a>Search bar goes here</a>
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
+            <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
+                <nav className="flex space-x-10">
+                    <a href="#" className="text-base font-medium text-rose-800 hover:text-gray-500">
+                    Personal
+                    </a>
+                    <a href="#" className="text-base font-medium text-gray-800 hover:text-gray-500">
+                    Business
+                    </a>
+                    <a href="#" className="text-base font-medium text-gray-800 hover:text-gray-500">
+                    Small Business
+                    </a>
+                </nav>
+            </div>
+
+            <div className="flex items-center md:ml-12">
+                <nav className="flex space-x-10">
+                    <a href="#" className="text-base font-medium text-gray-800 hover:text-gray-500">
+                    Location
+                    </a>
+                    <a href="#" className="text-base font-medium text-gray-800 hover:text-gray-500">
+                    Support
+                    </a>
+                    <a href="#" className="text-base font-medium text-gray-800 hover:text-gray-500">
+                    My Cart
+                    </a>
+                </nav>
+            </div>
         </div>
-    </header>
-  )
+    </div>
+    )
 }
