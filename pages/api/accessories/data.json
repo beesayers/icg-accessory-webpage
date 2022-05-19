@@ -4,7 +4,8 @@
         "id": "1",
         "type": "case",
         "manufacturer": "case-mate",
-        "description": "Samsung Galaxy S22 Plus Casemate accessory bundle",
+        "device": "Samsung Galaxy S22 Plus",
+        "description":  "Casemate accessory bundle",
         "slug": "samsung-galaxy-s22-plus-casemate-accessory-bundle",
         "color": "Black",
         "payment": {
@@ -18,7 +19,8 @@
         "id": "2",
         "type": "case",
         "manufacturer": "speck",
-        "description": "Samsung Galaxy S22 Ultra Speck Presidio Grip 2 case",
+        "device": "Samsung Galaxy S22 Ultra",
+        "description": "Speck Presidio Grip 2 case",
         "slug": "samsung-galaxy-s22-ultra-speck-presidio-grip-2-case",
         "color": "Coastal Blue",
         "payment": {
@@ -32,7 +34,8 @@
         "id": "3",
         "type": "screen-protector",
         "manufacturer": "gadgetguard",
-        "description": "Samsung Galaxy S22 Plus Gadget Guard Flex screen protector",
+        "device": "Samsung Galaxy S22 Plus",
+        "description": "Gadget Guard Flex screen protector",
         "slug": "samsung-galaxy-s22-plus-gadget-guard-flex-screen-protector",
         "color": "Black Ice",
         "payment": {
@@ -46,7 +49,8 @@
         "id": "4",
         "type": "screen-protector",
         "manufacturer": "case-mate",
-        "description": "Apple iPhone 13 mini Casemate protection pack",
+        "device": "Apple iPhone 13 mini",
+        "description": "Casemate protection pack",
         "slug": "apple-iphone-13-mini-casemate-protection-pack",
         "color": "Clear",
         "payment": {
