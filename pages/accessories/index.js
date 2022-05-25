@@ -13,7 +13,7 @@ export default function HomePage({accessories}) {
         {accessories.map((item) => (
           <AccessoryItem key={item.id} accessories={item} />
         ))}
-        <Link href ="/">
+        <Link href ={API_URL}>
           <a className={styles.back}>Back</a>
         </Link>
       </Layout>
@@ -25,25 +25,25 @@ export default function HomePage({accessories}) {
 // Pre-renders the page on each request
 // (more efficient for client)
 // (kinda overkill for this demo)
-// export async function getServerSideProps() {
-//   const res = await fetch(`${API_URL}/api/accessories`);
-//   const accessories = await res.json();
-
-//   return {
-//     props: {accessories},
-//   };
-// }
-
-
-// switched to static rendering with 3sec refresh
-// hover over was sending too many requests
-// and killing page performance
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch(`${API_URL}/api/accessories`);
   const accessories = await res.json();
 
   return {
     props: {accessories},
-    revalidate: 3
   };
 }
+
+
+// switched to static rendering with 3sec refresh
+// hover over was sending too many requests
+// and killing page performance
+// export async function getStaticProps() {
+//   const res = await fetch(`${API_URL}/api/accessories`);
+//   const accessories = await res.json();
+
+//   return {
+//     props: {accessories},
+//     revalidate: 3
+//   };
+// }
