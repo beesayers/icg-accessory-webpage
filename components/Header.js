@@ -1,11 +1,12 @@
 import Link from "next/link";
+import {API_URL} from "@/config/index";
 
 export default function Header() {
   return (
     <div className="relative bg-white">
         <div className="flex justify-between items-baseline px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
             <div className="items-baseline pl-2 sm:h-10 md:justify-start">
-                <Link href="/" className="flex">
+                <Link href={API_URL} className="flex">
                     <img
                     className="w-auto sm:h-10"
                     src="/images/global/header/logo.png"
