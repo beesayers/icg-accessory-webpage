@@ -4,6 +4,8 @@ import Image from "next/image";
 import {useRouter} from "next/router";
 import {API_URL} from "@/config/index";
 import styles from "@/styles/Accessories.module.css";
+import { useState } from 'react'
+import { RadioGroup } from '@headlessui/react'
 
 
 // Q: are multiple accessories being passed in or only one?
@@ -12,7 +14,7 @@ export default function SingleAccessory({accessory}) {
     return (
         <Layout>
             <Link href ="/">
-                <a className={`${styles.back} ${styles.blue}`}>See all accessories</a>
+                <a className={`${styles.blue}`}>See all accessories</a>
             </Link>
 
             {accessory.image && (
